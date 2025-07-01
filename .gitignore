@@ -1,5 +1,47 @@
-/bin/
-/target/
-/.settings/
-*.class
-*.iml
+!.mvn/wrapper/maven-wrapper.jar
+/**/target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+/**/node/
+!**/src/main/**/node/
+!**/src/test/**/node/
+/**/node_modules/
+!**/src/main/**/node_modules/
+!**/src/test/**/node_modules/
+/**/resources/out*
+/**/resources/META-INF/plugin-descriptors/out*
+
+/**/amps-standalone/
+/**/amps-standalone*/
+
+### IntelliJ IDEA ###
+**/.idea/
+**/*.iws
+**/*.iml
+**/*.ipr
+
+### Eclipse ###
+**/.apt_generated
+**/.classpath
+**/.factorypath
+**/.project
+**/.settings
+**/.springBeans
+**/.sts4-cache
+
+### NetBeans ###
+**/nbproject/private/
+**/nbbuild/
+**/dist/
+**/nbdist/
+**/.nb-gradle/
+**/build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+**/.vscode/
+**/*.code-workspace
+
+### Mac OS ###
+.DS_Store
